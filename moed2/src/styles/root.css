@@ -1,0 +1,28 @@
+.header-container , .footer-container{
+    width: 100%;
+    background-color: rgba(116, 236, 146, 0.813);
+    padding: 2vmin;
+  }
+  
+  .logo , .stamp{
+    font-size: larger;
+    font-weight: bold;
+  }
+  
+  .footer-container{
+    margin-top: 4vmin;
+  }
+  
+  .main-layout {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10vmin;
+  }
+
+  .outlet {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    gap: 20vmin;
+  }

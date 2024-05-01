@@ -1,0 +1,38 @@
+.add{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vmin;
+    justify-content: center;
+    border-color: black;
+    border-style: solid;
+    width:70vmin;
+    height: 50vmin;
+    margin-left: 20vmin;
+    padding: 20vmin;
+}
+
+.add > p {
+    font-size: 5vmin;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.add > input {
+    width: 30vmin;
+    display: flex;
+    justify-content: center;
+    border-color: black;
+    padding: 1vmin;
+}
+
+.add > span {
+    display: flex;
+    justify-content: center;
+    margin: 1vmin;
+    cursor: pointer;
+    padding: 1vmin;
+    border-color: black;
+    border-style: solid;
+    border-radius: 1vmin;
+}

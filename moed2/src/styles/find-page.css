@@ -1,0 +1,47 @@
+.find {
+  display: flex;
+  flex-direction: column;
+  padding: 20vmin;
+  row-gap: 3vmin;
+  justify-content: center;
+  margin-left: 20vmin;
+  border-color: black;
+  border-style: solid;
+  width: 70vmin;
+  height: 50vmin;
+}
+
+.find > p {
+    font-size: 5vmin;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.find > input {
+  width: 30vmin;
+  display: flex;
+  align-content: center;
+  border-color: black;
+  padding: 1vmin;
+}
+
+.find > select {
+  width: 30vmin;
+  display: flex;
+  align-content: center;
+  border-color: black;
+  padding: 1vmin;
+  border-width: 0.25vmin;
+}
+
+.find > span {
+  display: flex;
+  justify-content: center;
+  margin: 1vmin;
+  cursor: pointer;
+  padding: 1vmin;
+  border-color: black;
+  border-style: solid;
+  border-radius: 1vmin;
+}

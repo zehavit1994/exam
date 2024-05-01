@@ -1,0 +1,23 @@
+.all {
+  display: flex;
+  flex-direction: column;
+  padding: 20vmin;
+  row-gap: 3vmin;
+  justify-content: center;
+  margin-left: 20vmin;
+  border-color: black;
+  border-style: solid;
+  width: 70vmin;
+  height: 50vmin;
+}
+
+.all > span {
+  display: flex;
+  justify-content: center;
+  margin: 1vmin;
+  cursor: pointer;
+  padding: 1vmin;
+  border-color: black;
+  border-style: solid;
+  border-radius: 1vmin;
+}

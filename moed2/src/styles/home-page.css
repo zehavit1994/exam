@@ -1,0 +1,36 @@
+.homeContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 3vmin;
+  row-gap: 5vmin;
+  justify-content: center;
+  margin-left: 20vmin;
+  border-color: black;
+  border-style: solid;
+  width: 70vmin;
+  height: 50vmin;
+}
+
+.homeContainer > span {
+  font-size: 5vmin;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+
+.homeContainer .bT > span {
+  font-size: 3vmin;
+  cursor: pointer;
+  border-color: black;
+  border-style: solid;
+  padding: 1vmin;
+  border-radius: 1vmin;
+  width: 22vmin;
+  justify-content: center;
+}
+
+.homeContainer .bT {
+  display: flex;
+  gap: 5vmin;
+  justify-content: center;
+}
